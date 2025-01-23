@@ -1,1 +1,58 @@
+.App{
+    background-image: url("/src/components/castle.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 1200px;
+    width: 100%;
+    
+}
 
+#nav{
+    border: solid 2px green;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+.nav-item{
+    margin: 10px;
+    display: inline;
+    
+}
+
+#header{
+    border: solid 2px pink;
+    text-align: center;
+}
+
+#footer{
+    border: solid 2px blue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#submissiondiv{
+    text-align: center;
+    
+}
+
+#characterlist{
+    width: 300px;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+#submissionform{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.input_field{
+    height: 70px;
+    width: 300px;
+    margin: auto;
+}
