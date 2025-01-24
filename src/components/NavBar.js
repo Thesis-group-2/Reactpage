@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar">
                         <li class="nav-item">
-                            <Link className='nav-link' to="/characters">Characters</Link>
+                            <Link className='nav-link' to="/characters">Meet the characters</Link>
                         </li>
                         <li class="nav-item">
                             <Link className="nav-link" to="/dialoguesubmit">Submit Dialogue</Link>

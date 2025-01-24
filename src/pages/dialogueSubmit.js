@@ -3,9 +3,9 @@ import React from 'react'
 export default function DialogueSubmitView() {
     return (
         <div id='submissiondiv'>
-            <p>Feel free to checkout the different characters from the menu! ^-^</p>
+            <h1>This is the dialogue submitting page</h1>
             <form id='submissionform'>
-                <h1>This is the dialogue submitting page</h1>
+                <p>Feel free to checkout the different characters from the menu! ^-^</p>
                 <label>Character</label>
                 <select id="characterlist" name="characters">
                     <option> Dog reaper</option>
