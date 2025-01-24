@@ -15,6 +15,7 @@ export default function DialogueSubmitView() {
                 <br/>
                 <input class="input_field" placeholder='Write your submission'></input>
                 <br/>
+                <button type='button'>Submit</button>
             </form>
         </div>
     )
