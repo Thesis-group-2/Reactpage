@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home(){
     return(
-    <div>
+    <div className='contentdiv'>
         <h1>This is the homepage</h1>
         <p>You are enjoying your little walk, when suddenly you hear a sound.</p>
         <p>"Hey!" Someone calls. You try looking around but see nothing. "Down here, you dimwit!"</p>
