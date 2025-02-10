@@ -1,4 +1,5 @@
 import React from 'react'
+import {secret} from "@aws-amplify/backend"
 
 export default function Home(){
     return(
@@ -10,6 +11,7 @@ export default function Home(){
         <p>Except... There's only the head.</p>
         <br/>
         <p>"Can you help me find my horse?"</p>
+        <p>{secret("foo")}</p>
     </div>
     )
 
